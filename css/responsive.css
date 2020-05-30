@@ -1,0 +1,158 @@
+.slicknav_menu{
+    display: none;
+}
+
+@media screen and (max-width: 1199px){
+    .feature-mockup {
+       bottom: -146px;
+    }
+    .single-feature{
+       width: 250px;
+       height: 250Px;        
+    }
+    .single-feature h3{
+       font-size: 16px;
+    }
+    .single-feature p{
+       font-size: 12px;
+    }
+    .single-feature i.fas{
+       font-size: 25px;
+       width: 57px;
+       height: 57px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .slider{
+        margin-top: 112px;
+    }
+    header{
+        margin-top: -112px;
+        background: deepskyblue;
+    }
+    #menu{
+        display: none;
+    }
+    .slicknav_menu{
+        display: inline-block;
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        background: transparent;
+        margin-top: -112px;
+    }
+    .slicknav_btn{
+        background: orange;
+        margin: 35px 30px 0 0;
+    }
+    .slicknav_nav{
+        background: deepskyblue;
+        width: 200px;
+    }
+    .slicknav_nav li{
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        text-align: center;
+    }
+    .slicknav_nav li a{
+        margin: 0;
+        padding: 0; 
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.5s ease;
+    }
+    .slicknav_nav li a:hover{
+        color: red;
+        background: transparent; 
+    }
+    .team-block {
+        margin-top: 80px;
+    }
+    
+    .intro-block {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 991px){
+      .feature-mockup {
+       bottom: -50px;
+    }
+    .feature-mockup img{
+        width: 40%;
+        height: 40%;
+    }
+     .single-feature{
+       width: 360px;
+       height: 260Px;        
+    }
+    .single-feature h3{
+       font-size: 18px;
+    }
+    .single-feature p{
+       font-size: 13px;
+    }
+    .single-feature i.fas{
+       font-size: 30px;
+       width: 64px;
+       height: 64px;
+    } 
+}
+
+@media screen and (max-width: 749px){
+    .single-feature{
+    border: none;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;    
+    }
+    .feature-mockup img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .download .btn-default {
+        font-size: 16px;
+        padding: 4px 30px;
+        margin: 0px 6px;
+    }
+    .contact-area ul li:last-child{
+    margin-bottom: 35px;   
+    }
+}
+
+@media screen and (max-width: 503px){
+    .download .btn-default {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .slider a.btn{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
+    .more-feature-area img {
+        width: 80%;
+        margin-right: 20px;
+    }
+    
+}
